@@ -1,2 +1,0 @@
-# progectgit
-1/
