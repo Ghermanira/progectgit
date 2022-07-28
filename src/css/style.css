@@ -1,0 +1,194 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+header {
+    position: relative;
+    
+}
+
+nav {
+    height: 53px;
+    background: #212121;
+}
+.menu {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+    
+}
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu .menu_item {
+    border-right:  2px dotted rgb(142, 138, 138);
+    padding-right: 28px;
+}
+.subheader {
+    height: 87px;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);  
+    position: absolute;
+}
+.subheader .logo_uber {
+    min-width: 100%;
+    padding-top: 16px;
+}
+
+.subheader .text_logo_uber {
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+.subheader .contacts {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.subheader .number {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 11px;
+}
+.subheader .uber_btn {
+    margin-top: 16px;
+    width: 172px;
+    height: 46px;
+    border: 0;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22); 
+    cursor: pointer;
+    outline: none;
+}
+.promo {
+    min-height: 800px;
+    background: url('../img/uber_bg.png') center center/cover no-repeat;
+}
+.promo .promo_header {
+    padding-top: 137px;
+    font-weight: 900;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo .promo_subhader {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo .promo_text {
+    padding-top: 16px;
+    padding-bottom: 116px;
+    font-weight: 200;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    width: 211px;
+    height: 63px;
+    border: 0;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22); 
+    cursor: pointer;
+    outline: none;
+    
+}
+.reason {
+    min-width: 849px;
+    padding: 18px 0 64px 0;
+}
+
+.laibel_section {
+    display: block;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.laibel_section .label_text {
+    padding-top: 8px;
+    vertical-align: text-top;
+}
+.reason_ttl {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 40px;
+}
+
+.reason_item {
+    display: flex;
+    min-height: 200px;
+
+}
+.reason_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+.reason_txt {
+    margin: 0 auto 0 25px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #202020;
+    width: 371px; 
+}
+.reason_txt span {
+    
+    font-weight: 300;
+    font-size: 17px;
+    color: #1EACC7;
+    width: 371px;
+    
+}
